@@ -12,3 +12,8 @@ body footer
 {
 	border: thin solid blue;
 }
+
+main section
+{
+	border: thin solid orange;
+}
