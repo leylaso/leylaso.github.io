@@ -6,7 +6,7 @@ body header
 body main
 {
 	border: thick solid green;
-	width: 100%;
+	width: inherit;
 	height: 10em;
 	padding: 0em;
 	position: relative;
