@@ -1,14 +1,14 @@
-body.header
+body header
 {
 	border: thin solid red;
 }
 
-body.main
+body main
 {
 	border: thin solid green;
 }
 
-body.footer
+body footer
 {
 	border: thin solid blue;
 }
