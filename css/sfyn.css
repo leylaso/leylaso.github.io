@@ -1,0 +1,14 @@
+body.header
+{
+	border: thin solid red;
+}
+
+body.main
+{
+	border: thin solid green;
+}
+
+body.footer
+{
+	border: thin solid blue;
+}
