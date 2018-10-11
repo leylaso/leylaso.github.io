@@ -1,6 +1,23 @@
 body header
 {
 	border: thin solid red;
+	width: inherit;
+	position: relative;
+	padding: 1em;
+}
+
+body header h1,
+body header nav
+{
+	display: inline-block;
+	margin: 0em;
+}
+
+body header nav
+{
+	position: absolute;
+	bottom: 1em;
+	right: 1em;
 }
 
 body main
