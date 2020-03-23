@@ -1,9 +1,54 @@
+.cropped-image
+{
+	background-size: auto 100%;
+	height: 100%;
+	width: 100%;
+}
+
+.hidden
+{
+	display: none;
+}
+
+.sticky {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 10;
+}
+
+.sticky + main
+{
+	padding-top: 2em;
+	z-index: 0;
+}
+
+body
+{
+	padding: 0em;
+	margin: 0em;
+}
+
+div.translate
+{
+	display: inline-block;
+}
+
+body .content-wrapper
+{
+	max-width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	min-height: 2em;
+}
+
 body header
 {
-	border: thin solid red;
-	width: inherit;
-	position: relative;
-	padding: 1em;
+	/*border: thin solid red;*/
+	width: 100%;
+	padding: .1em;
+	top: 0em;
+	background: white;
 }
 
 body header h1,
@@ -13,30 +58,185 @@ body header nav
 	margin: 0em;
 }
 
+body header #main-title
+{
+	display: none;
+}
+
 body header nav
 {
-	position: absolute;
-	bottom: 1em;
-	right: 1em;
+	height: 1.5em;
+	float: right;
+	z-index: 10;
+}
+
+body header nav a,
+body header nav img,
+body header nav span
+{
+	vertical-align: middle;
+}
+
+body header nav img
+{
+	width: auto;
+	max-height: 100%;
+}
+
+body header nav a
+{
+	text-decoration: none;
+	color: black;
+}
+
+body header nav a.current
+{
+	color: #cc00cc;
 }
 
 body main
 {
-	border: thick solid green;
+	/*border: thick solid green;*/
 	width: inherit;
-	height: 10em;
 	padding: 0em;
 	position: relative;
+	z-index: 0;
 }
 
 body footer
 {
-	border: thin solid blue;
+	/*border: thin solid blue;*/
 }
 
 main section
 {
-	border: thin solid orange;
-	position: absolute;
+	/*border: thin solid orange;*/
+	position: inherit;
 	width: 100%
+}
+
+main .linked-section
+{
+	display: block;
+}
+
+main .section-title
+{
+	padding-top: 1em;
+	margin-top: 0em;
+	color: #990099;
+}
+
+main .title-caption
+{
+	display: block;
+	font-size: .8em;
+	margin-bottom: -1em;
+	margin-top: -2em;
+	color: black;
+}
+
+main #headshot,
+main #headshot-text
+{
+	display: inline-block;
+	vertical-align: middle;
+	height: 240px;
+}
+
+main #headshot
+{
+	width: 30%;
+	background: black;
+}
+
+main #headshot #headshot-image
+{
+	background: black url(../img/headshot.jpg) no-repeat center center;
+}
+
+main #headshot-text
+{
+	width: 68%;
+}
+
+main .section-title
+{
+	text-align: center;
+}
+
+main #describe p
+{
+	text-align: justify;
+	width: 60%;
+	min-width: 250px;
+	margin: 0 auto;
+}
+
+
+body
+{
+	font-family: Tahoma, Verdana, Geneva, sans-serif;
+}
+
+#portfolio-gallery .portfolio-item
+{
+	width: 45%;
+	display: inline-block;
+	vertical-align: top;
+	margin: 0 2%;
+}
+
+#portfolio-gallery .portfolio-img
+{
+	height: auto;
+	max-width: 100%;
+}
+
+#portfolio-gallery .portfolio-text p
+{
+	text-align: left;
+}
+
+#portfolio-gallery .portfolio-text p.date
+{
+	text-align: center;
+}
+
+p.date
+{
+	font-style: italic;
+}
+
+section.linked-section
+{
+	background: #ddb;
+	margin-bottom: 0em;
+	padding-bottom: 6em;
+	padding-top: 6em;
+	background-size: auto 100%;
+	border-bottom: 5em solid #332;
+	border-top: 5em solid #332;
+}
+
+section.linked-section.even
+{
+	background: #eed;
+}
+
+#intro
+{
+        background: white url(../img/backs/intro.jpg) no-repeat center bottom;
+}
+
+#portfolio
+{
+        background: white url(../img/backs/portfolio.jpg) no-repeat center center;
+}
+
+section.linked-section .content-wrapper
+{
+	background: white;
+	border-radius: .5em;
+	padding: 0em 1em;
 }
