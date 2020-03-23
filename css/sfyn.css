@@ -220,22 +220,18 @@ section.linked-section
 	background-size: auto 100%;
 	border-bottom: 5em solid #332;
 	border-top: 5em solid #332;
-}
-
-section.linked-section.even
-{
-	background: #eed;
-}
-
-#intro
-{
-        background: white url(../img/backs/intro.jpg) no-repeat center bottom;
-}
-
-#portfolio
-{
         background: white url(../img/backs/portfolio.jpg) no-repeat center center;
 }
+
+section.linked-section.odd
+{
+        background: white url(../img/backs/sunset.jpg) no-repeat center center;
+}
+
+/*#intro
+{
+        background: white url(../img/backs/intro.jpg) no-repeat center bottom;
+}*/
 
 section.linked-section .content-wrapper
 {
