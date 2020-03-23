@@ -59,6 +59,11 @@ body header nav
 	padding-right: 2em;
 }
 
+body header nav a
+{
+	margin-left: .5em;
+}
+
 body header #main-title
 {
 	display: none;
