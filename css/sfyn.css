@@ -236,3 +236,26 @@ section.linked-section .content-wrapper
 	border-radius: .5em;
 	padding: 0em 1em;
 }
+
+section.linked-section .solo
+{
+	text-align: center;
+	padding: 0 10% 2em;
+	width: 80%;
+}
+
+section.linked-section .solo p
+{
+	text-align: left;
+}
+
+#contact .solo p
+{
+	text-align: inherit;
+}
+
+.email
+{
+	font-family: Courier, monospace;
+}
+
