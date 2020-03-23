@@ -71,16 +71,13 @@ body header nav
 	z-index: 10;
 }
 
-body header img.home-button,
+body header img,
 body header nav a,
-body header nav img,
-body header nav span
 {
 	vertical-align: middle;
 }
 
-body header img.home-button,
-body header nav img
+body header img
 {
 	width: auto;
 	max-height: 1.5em;
