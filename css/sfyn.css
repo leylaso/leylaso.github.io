@@ -222,7 +222,7 @@ section.linked-section
 	background-size: auto 100%;
 	border-bottom: 5em solid #222;
 	border-top: 5em solid #222;
-        background: white url(../img/backs/portfolio.jpg) no-repeat center center;
+        background: white url(../img/backs/apprendre.jpg) no-repeat center center;
 }
 
 section.linked-section.odd
@@ -230,10 +230,15 @@ section.linked-section.odd
         background: white url(../img/backs/sunset.jpg) no-repeat center center;
 }
 
-/*#intro
+#intro
 {
-        background: white url(../img/backs/intro.jpg) no-repeat center bottom;
-}*/
+        background: white url(../img/backs/vine.jpg) no-repeat center top;
+}
+
+#portfolio
+{
+        background: white url(../img/backs/books.jpg) no-repeat center top;
+}
 
 section.linked-section .content-wrapper
 {
