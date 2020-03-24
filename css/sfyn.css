@@ -37,9 +37,16 @@ div.translate
 body .content-wrapper
 {
 	max-width: 800px;
+	min-width: 325px;
+	width: 50%;
 	margin-left: auto;
 	margin-right: auto;
 	min-height: 2em;
+}
+
+body #portfolio .content-wrapper
+{
+	width: 75%;
 }
 
 body header
@@ -184,12 +191,20 @@ body
 	font-family: Tahoma, Verdana, Geneva, sans-serif;
 }
 
+#portfolio-gallery
+{
+	text-align: center;
+}
+
 #portfolio-gallery .portfolio-item
 {
 	width: 45%;
 	display: inline-block;
 	vertical-align: top;
 	margin: 0 2%;
+	min-width: 300px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 #portfolio-gallery .portfolio-img
