@@ -232,12 +232,12 @@ section.linked-section.odd
 
 #intro
 {
-        background: white url(../img/backs/vine.jpg) no-repeat center top;
+        background: white url(../img/backs/vine.jpg);
 }
 
 #portfolio
 {
-        background: white url(../img/backs/books.jpg) no-repeat center top;
+        background: white url(../img/backs/books.jpg);
 }
 
 section.linked-section .content-wrapper
