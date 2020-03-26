@@ -295,3 +295,24 @@ section.linked-section .solo p
 	font-family: Courier, monospace;
 }
 
+footer
+{
+	background: #222;
+	color: white;
+	margin-top: -1em;
+	text-align: center;
+	padding-bottom: 2em;
+}
+
+footer #copyright
+{
+	min-width: 250px;
+	width: 50%;
+	margin: 0em auto;
+}
+
+footer a
+{
+	color: white;
+	text-decoration: none;
+}
