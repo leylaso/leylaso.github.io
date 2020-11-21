@@ -258,7 +258,8 @@ section.linked-section.odd
 
 #portfolio
 {
-        background: white url(../img/backs/books.jpg) no-repeat center center;
+        background: white url(../img/backs/books.jpg) no-repeat top center;
+	padding-top: 18em;
 }
 
 section.linked-section .content-wrapper
