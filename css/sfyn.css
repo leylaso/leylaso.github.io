@@ -44,17 +44,7 @@ body .section-content
 	min-height: 2em;
 }
 
-body .content-wrapper
-{
-	width: 100%;
-}
-
-body main .content-wrapper
-{
-	border: 2px solid #660066;
-}
-
-body #portfolio .content-wrapper
+body #portfolio .section-content
 {
 	width: 75%;
 }
