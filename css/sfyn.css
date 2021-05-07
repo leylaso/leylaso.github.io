@@ -27,6 +27,7 @@ body
 {
 	padding: 0em;
 	margin: 0em;
+	background: #222;
 }
 
 div.translate
@@ -42,6 +43,7 @@ body .section-content
 	margin-left: auto;
 	margin-right: auto;
 	min-height: 2em;
+	text-align: center;
 }
 
 body #portfolio .section-content
@@ -238,22 +240,50 @@ section.linked-section
 {
 	background: #ddb;
 	margin-bottom: 0em;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1024px;
 	padding-bottom: 0em;
 	padding-top: 12em;
 	background-size: auto 100%;
 	border-bottom: 5em solid #222;
 	border-top: 5em solid #222;
-        background: white url(../img/backs/apprendre.jpg) no-repeat center center;
+    background: white url(../img/backs/apprendre.jpg) no-repeat center center;
+	border-right: thin solid white;
+	border-left: thin solid white;
+}
+
+section.linked-section#intro
+{
+	padding-top: 0em;
 }
 
 section.linked-section.odd
 {
-        background: white url(../img/backs/sunset.jpg) no-repeat center center;
+	background-image: url(../img/backs/sunset.jpg);
 }
 
 #intro
 {
-        background: white url(../img/backs/rails.jpg) no-repeat center center;
+        background: inherit;
+}
+
+#intro .content-wrapper
+{
+		background: transparent url(../img/banner.png) no-repeat left center;
+		height: 320px;
+		max-width: 1024px;
+		margin: 0 auto;
+		padding-left: 0px;
+}
+
+@media (max-width: 650px)
+{
+	#intro .content-wrapper
+	{
+		padding-left: 100px;
+		background-position: -75px center;
+	}
 }
 
 #portfolio
