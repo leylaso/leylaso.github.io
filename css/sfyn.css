@@ -160,7 +160,6 @@ main #headshot-text
 {
 	display: inline-block;
 	vertical-align: middle;
-	height: 240px;
 }
 
 main #headshot
@@ -176,7 +175,8 @@ main #headshot #headshot-image
 
 main #headshot-text
 {
-	width: 68%;
+	width: 100%;
+	margin-bottom: 2em;
 }
 
 main .section-title
@@ -187,7 +187,7 @@ main .section-title
 main #describe p
 {
 	text-align: justify;
-	width: 60%;
+	width: 80%;
 	min-width: 250px;
 	margin: 0 auto;
 }
@@ -271,13 +271,21 @@ section.linked-section.odd
 #intro .content-wrapper
 {
 		background: transparent url(../img/banner.png) no-repeat left center;
-		height: 320px;
 		max-width: 1024px;
 		margin: 0 auto;
 		padding-left: 0px;
 }
 
 @media (max-width: 650px)
+{
+	#intro .content-wrapper
+	{
+		padding-left: 100px;
+		background-position: -75px center;
+	}
+}
+
+@media (max-width: 250px)
 {
 	#intro .content-wrapper
 	{
