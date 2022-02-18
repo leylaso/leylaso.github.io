@@ -281,16 +281,12 @@ section.linked-section.odd
 	#intro .content-wrapper
 	{
 		padding-left: 100px;
-		background-position: -75px center;
+		background-position: -135px center;
 	}
-}
 
-@media (max-width: 250px)
-{
-	#intro .content-wrapper
+	#intro .section-content
 	{
-		padding-left: 100px;
-		background-position: -75px center;
+		border: thin solid red;
 	}
 }
 
