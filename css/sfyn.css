@@ -281,7 +281,7 @@ section.linked-section.odd
 	#intro .content-wrapper
 	{
 		padding-left: 100px;
-		background-position: -135px center;
+		background-position: -135px center; // this is only a test
 	}
 
 	body #intro .section-content
