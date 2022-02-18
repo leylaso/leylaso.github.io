@@ -188,7 +188,6 @@ main #describe p
 {
 	text-align: justify;
 	width: 80%;
-	min-width: 250px;
 	margin: 0 auto;
 }
 
@@ -286,7 +285,12 @@ section.linked-section.odd
 
 	body #intro .section-content
 	{
-		border: thin solid red;
+		min-width: 210px;
+	}
+
+	main #describe p
+	{
+		text-align: left;
 	}
 }
 
