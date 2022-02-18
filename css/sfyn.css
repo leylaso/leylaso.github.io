@@ -269,7 +269,7 @@ section.linked-section.odd
 
 #intro .content-wrapper
 {
-		background: transparent url(../img/banner.png) no-repeat left center;
+		background: #efe8d8 url(../img/banner.png) no-repeat left bottom;
 		max-width: 1024px;
 		margin: 0 auto;
 		padding-left: 0px;
@@ -289,7 +289,7 @@ section.linked-section.odd
 	#intro .content-wrapper
 	{
 		padding-left: 100px;
-		background-position: -135px center;
+		background-position: -135px bottom;
 	}
 
 	body #intro .section-content
