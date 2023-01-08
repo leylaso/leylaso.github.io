@@ -92,8 +92,6 @@ main.page .container
 .page-footer .social-icons a {
     font-size: 18px;
     margin: 0;
-    color: #ffffff;
-    border: 1px solid;
     opacity: 0.75;
     border-radius: 50%;
     width: 2em;
