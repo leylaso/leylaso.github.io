@@ -5,21 +5,21 @@
 
   
   <title>
-    Leïla Sofiane -
-    
+    Lieux communs |
+    Leïla Sofiane
   </title>
   
 
 
   <meta name="description" content="">
   <meta name="author" content="Leïla Sofiane">
-  <meta property="og:title" content="Leïla Sofiane" />
+  <meta property="og:title" content="Lieux communs" />
   <meta property="og:description" content="" />
   <meta property='og:site_name' content='Leïla Sofiane' />
   <meta property="og:image" content="http://leila.sofiane.site/img/default.jpg" />
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:description" content="" />
-  <meta name="twitter:title" content="Leïla Sofiane" />
+  <meta name="twitter:title" content="Lieux communs" />
 
   <meta name="twitter:image" content="http://leila.sofiane.site/img/default.jpg" />
 
@@ -70,35 +70,66 @@
 
 
     <main class="page main-page">
-        
+        <div class="container blogPost">
+    <div class="row">
+        <div class="col-sm-9 px-md-5">
+            <h2 class="page-title">
+                Lieux communs
+            </h2>
+            <!-- Content -->
+            <p>Lieux communs est l’atelier d’écriture qui accompagne les prestations de <a href="/refuges">Refuges</a>. Les lieux mis en communs ainsi sont ceux qui reprennent la thématique de Refuges afin de chercher des endroits ou l’on peut être soi-même à l’abri des contraintes sociales. À travers une série d’exercices simples, je fais découvrir aux participant·es leurs voix et leurs crayons. Mes ateliers sont un remède au syndrome de la page blanche – je suis souvent et agréablement surprise par ce qui en sort.</p>
 
-<div class="title cat-title">
-    <h2>
-        2020/12
-    </h2>
+            <br />
+            <p class="meta">
+                
+            </p>
+        </div>
+
+        <div class="col-sm-3">
+            
+
+	<block class="page_image">
+	<img src="/refuges/ateliers/2022-10-26.jpg">
+	<br />
+	<hr />
+	</block>
+
+
+
+ 
+<block>
+<span class="block-title"><b> Me rejoindre</b></span>
+<p>
+	<p>Vous pouvez m&#39;écrire à&nbsp;: </p> <p class="email">&#108;&#101;&#105;&#108;&#97;&#64;&#115;&#111;&#102;&#105;&#97;&#110;&#101;&#46;&#115;&#105;&#116;&#101;</p> 
+</p>
+<hr />
+</block>
+ 
+
+        </div>
+    </div>
 </div>
-
-
-<div class="band">
-    
-    <div class="item-01">
-  <a href="/2020/12/01/nos-girls/" class="post">
-    <div class="thumb" style="background-image: url(/./img/default.jpg);"></div>
-    <article>
-      <h1>
-        Nos girls
-      </h1>
-      <p>
-        J'ai composé ce slam bilingue pour la Soirée de poésie rituelle en hommage à Joyce Echaquand et aux femmes autochtones disparues et assassinées.
-      </p>
-      <span>
-        2020-12-01</span>
-    </article>
-  </a>
-</div>
-    
-</div>
-
+<!-- Menu fade on scroll -->
+<script>
+    var isScrolling;
+    var prevScrollpos = window.pageYOffset;
+    window.addEventListener(
+        'scroll',
+        function(event) {
+            window.clearTimeout(isScrolling);
+            isScrolling = setTimeout(function() {
+                var currentScrollPos = window.pageYOffset;
+                if (prevScrollpos > currentScrollPos) {
+                    $('#navbar').slideDown();
+                } else {
+                    $('#navbar').slideUp();
+                }
+                prevScrollpos = currentScrollPos;
+            }, 66);
+        },
+        false
+    );
+</script>
 
 
     </main>

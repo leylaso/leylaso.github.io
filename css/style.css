@@ -10,6 +10,22 @@ body {
     background: #333;
 }
 
+main .container table
+{
+	width: 100%;
+}
+
+tbody tr {
+	border-bottom: thin dashed #aab;
+}
+td {
+	padding: 1em;
+}
+th {
+	text-transform: uppercase;
+	text-align: center;
+}
+
 a {
 }
 
