@@ -25,6 +25,11 @@ th {
 	text-transform: uppercase;
 	text-align: center;
 }
+figcaption{
+	font-style: italic;
+	text-align: right;
+}
+
 
 a {
 }
