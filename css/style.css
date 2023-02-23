@@ -38,7 +38,7 @@ a {
 .cat-title,
 .page-title,
 .block-title,
-h2, h3 {
+h2, h3, h4 {
     font-family: Alice, Lato, sans-serif;
 }
 
@@ -258,6 +258,17 @@ blockquote > * {
 
 img {
     max-width: 100%;
+}
+
+img[src*="#headshot"], .headshot {
+	width: 250px;
+	float: left;
+	margin-right: 1em;
+	padding: 1em 0;
+}
+
+.headshot figcaption {
+	text-align: left;
 }
 
 .toc {
