@@ -25,9 +25,14 @@ th {
 	text-transform: uppercase;
 	text-align: center;
 }
-figcaption{
+
+figure {
+	text-align: center;
+}
+
+figcaption {
 	font-style: italic;
-	text-align: right;
+	text-align: center;
 }
 
 
@@ -267,8 +272,8 @@ img[src*="#headshot"], .headshot {
 	padding: 1em 0;
 }
 
-.headshot figcaption {
-	text-align: left;
+.bio-block {
+	display: inline-block;
 }
 
 .toc {
