@@ -47,6 +47,10 @@ h2, h3, h4 {
     font-family: Alice, Lato, sans-serif;
 }
 
+p {
+	display: block;
+}
+
 main.page
 {
 	background: #333;
@@ -293,4 +297,17 @@ img[src*="#headshot"], .headshot {
 	height: 15em;
 }
 
+img[src*="#biglogo"], img[src*="#smalllogo"] {
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 10px;
+}
 
+
+img[src*="#biglogo"] {
+	height: 125px;
+}
+
+img[src*="#smalllogo"] {
+	height: 70px;
+}
