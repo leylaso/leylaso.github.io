@@ -272,12 +272,18 @@ img {
 img[src*="#headshot"], .headshot {
 	width: 250px;
 	float: left;
-	margin-right: 1em;
+	margin-right: 15px;
 	padding: 1em 0;
 }
 
 .bio-block {
 	display: inline-block;
+}
+
+@media (min-width: 60em) {
+		.bio-block p {
+			margin-left: 265px;
+		}
 }
 
 .toc {
