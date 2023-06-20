@@ -281,7 +281,7 @@ img[src*="#headshot"], .headshot {
 }
 
 @media (min-width: 60em) {
-		.bio-block p {
+		.bio-block p, .bio-block ul {
 			margin-left: 265px;
 		}
 }
