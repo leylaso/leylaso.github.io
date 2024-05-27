@@ -108,45 +108,13 @@
         </div>
 
         <div class="col-sm-3 sidebar">
-            <% if (page.layout=="page" && page.featured_image && page.featured_display=="sidebar") {%>
+            
 
-	<block class="page_image">
-	<%- partial('featured_image', {page: page}) %>
-	<br />
-	<hr />
-	</block>
+ 
+		
 
-<% } %>
-
-<% if (theme.sidebar.tldr && theme.sidebar.tldr.length){ %> <% theme.sidebar.tldr.forEach(function(tldr){%>
-		<% if (!tldr.path || tldr.path == page.path || (tldr.paths && tldr.paths.includes(page.path))) {%>
-				<block>
-				<%=tldr.page%>
-				<%=page.pathl%>
-				<span class="block-title"><b> <%=tldr.title%></b></span>
-				<p>
-					<%-tldr.content%>
-				</p>
-				<hr />
-				</block>
-		<%} else { if (tldr.paths && tldr.paths.includes(page.path)) {%>
-			<%-tldr.paths%>
-		<%}}%>
-<% })} %> <% if(theme.sidebar.twitter.enabled){ %>
-
-<span
-	><a href="https://twitter.com/<%=theme.sidebar.twitter.username%>" target="_blank" rel="noopener"
-		><b
-			><i class="fab fa-twitter-square"></i>
-			<i class="fas fa-at"></i>
-			<%=theme.sidebar.twitter.username%></b
-		></a
-	></span
->
-<br />
-<a class="twitter-timeline" data-height="<%=theme.sidebar.twitter.height%>" data-dnt="true" data-chrome="nofooter transparent noheader noborders " href="https://twitter.com/<%=theme.sidebar.twitter.username%>?ref_src=twsrc%5Etfw"></a>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-<% } %>
+		
+ 
 
         </div>
     </div>
