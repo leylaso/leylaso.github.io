@@ -36,7 +36,7 @@
 <link rel="stylesheet" href="/css/style.css">
 
 
-<meta name="generator" content="Hexo 6.3.0"></head>
+<meta name="generator" content="Hexo 7.2.0"></head>
 <script async src='https://www.googletagmanager.com/gtag/js?id=G-DQ2JSV8N8V'></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -75,6 +75,11 @@
         <li class="nav-item item">
           <a class="nav-link" href="/refuges/">
             Refuges</a>
+        </li>
+        
+        <li class="nav-item item">
+          <a class="nav-link" href="/pay">
+            M&#39;aider</a>
         </li>
         
         </li>
@@ -161,23 +166,45 @@
         </div>
 
         <div class="col-sm-3 sidebar">
-            
+            <% if (page.layout=="page" && page.featured_image && page.featured_display=="sidebar") {%>
 
- 
-		
+	<block class="page_image">
+	<%- partial('featured_image', {page: page}) %>
+	<br />
+	<hr />
+	</block>
 
-		
+<% } %>
+
+<% if (theme.sidebar.tldr && theme.sidebar.tldr.length){ %> <% theme.sidebar.tldr.forEach(function(tldr){%>
+		<% if (!tldr.path || tldr.path == page.path || (tldr.paths && tldr.paths.includes(page.path))) {%>
 				<block>
-				
-				
-				<span class="block-title"><b> </b></span>
+				<%=tldr.page%>
+				<%=page.pathl%>
+				<span class="block-title"><b> <%=tldr.title%></b></span>
 				<p>
-					 <ul> <li><a href="/refuges/2023" class="block-title">Spectacles en 2023</a></li> <li><a href="https://scenepro.ca/offres-de-spectacles/Refuges-5113" class="block-title" target="_blank">Offre Scenepro</a></li> </ul> 
+					<%-tldr.content%>
 				</p>
 				<hr />
 				</block>
-		
- 
+		<%} else { if (tldr.paths && tldr.paths.includes(page.path)) {%>
+			<%-tldr.paths%>
+		<%}}%>
+<% })} %> <% if(theme.sidebar.twitter.enabled){ %>
+
+<span
+	><a href="https://twitter.com/<%=theme.sidebar.twitter.username%>" target="_blank" rel="noopener"
+		><b
+			><i class="fab fa-twitter-square"></i>
+			<i class="fas fa-at"></i>
+			<%=theme.sidebar.twitter.username%></b
+		></a
+	></span
+>
+<br />
+<a class="twitter-timeline" data-height="<%=theme.sidebar.twitter.height%>" data-dnt="true" data-chrome="nofooter transparent noheader noborders " href="https://twitter.com/<%=theme.sidebar.twitter.username%>?ref_src=twsrc%5Etfw"></a>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<% } %>
 
         </div>
     </div>
